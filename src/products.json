@@ -1,0 +1,46 @@
+[
+  {
+    "id": "tulostin1",
+    "image": "./images/printer1.png",
+    "price": 5,
+    "alt": "tulostin 1",
+    "details": [
+      "Ominaisuus 1",
+      "Ominaisuus 2",
+      "Ominaisuus 3",
+      "Ominaisuus 4"
+    ]
+  },
+  {
+    "id": "tulostin2",
+    "image": "./images/printer2.png",
+    "price": 100,
+    "alt": "tulostin 2",
+    "details": [
+      "Ominaisuus 1",
+      "Ominaisuus 2",
+      "Ominaisuus 3"
+    ]
+  },
+  {
+    "id": "tulostin3",
+    "image": "./images/printer3.png",
+    "price": 1000,
+    "alt": "tulostin 3",
+    "details": [
+      "Ominaisuus 1",
+      "Ominaisuus 2",
+      "Ominaisuus 3"
+    ]
+  },
+  {
+    "id": "tulostin4",
+    "image": "./images/printer4.png",
+    "price": 2000,
+    "alt": "tulostin 4",
+    "details": [
+      "Ominaisuus 1",
+      "Ominaisuus 2"
+    ]
+  }
+]

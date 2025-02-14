@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link a {
+        background: linear-gradient(135deg, #ffffff, #f1f1f1);
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        position: relative;
+        font-weight: 600;
+    }
+   
+
+    .feature {
+        background-color: #f1f5fb;
+        padding: 35px;
+        border-radius: 15px;
+        box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.9);
+        text-align: center;
+        width: 280px;
+        transition: all 0.3s ease-in-out;
+        margin-top: 10px;
+      }
+
+      .feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.8);
+      }
+
+      
+      body {
+        background-image: url('images/background2.jpg');
+        background-size: cover;  
+        background-position: center;  
+        background-repeat: repeat-y;  
+        height: 100vh;  
+      }
+
+      
+
+      .product-service-page li::before {
+        content: '\2022';
+        color: #007bff;
+        margin-right: 15px;
+        font-size: 1.4rem;
+      }
+
+      .order-page-2 label {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.1rem
+      }
+      .order-form-container select,
+      .order-page-2 input{
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+}
